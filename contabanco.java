@@ -64,14 +64,14 @@ public class contabanco {
     }
 
     //valor do saldo + valor depositado
-    private static void depositar(double valor) {
-        saldo += valor;
+    private static void depositar(double valordeposito) {
+        saldo += valordeposito;
         System.out.println("Seu saldo agora é: " + saldo + " R$");
     }
 
     //valor do saldo - valor sacado 
-    private static void valorsacado(double Valor) {
-        saldo -= Valor;
+    private static void valorsacado(double valorsaque) {
+        saldo -= valorsaque;
         System.out.println("Seu saldo agora é: " + saldo + " R$");
   
     }
